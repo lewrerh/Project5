@@ -1,0 +1,14 @@
+$(document).ready(function () {
+
+    let gallery = $("#gallery");
+
+    $.ajax({
+        url: 'https://randomuser.me/api/?results=12',
+        dataType: 'json',
+        success: function (data) {
+
+            console.log(data);
+        }
+    });
+});
+
