@@ -29,6 +29,28 @@ function createEmployeeCard(employeeCards) {
             </div>`
         $(".gallery").append(card);
 
-
     };
 }
+
+// Create the modal container with class modal-container and hide it
+let modalContainer = $("<div>");
+modalContainer.addClass("modal-container");
+modalContainer.css("display", "none");
+
+// Create a modal div with class modal
+let modalDiv = $("<div>");
+modalDiv.addClass("modal");
+
+// Create a close button with type button, id modal-close-btn, class modal-close-btn
+let buttonClose = $("<button>");
+buttonClose.attr("type", "button");
+buttonClose.attr("id", "modal-close-btn");
+buttonClose.addClass("modal-close-btn");
+
+// Create a strong tag
+let strong = $("<strong>");
+strong.text("X");
+
+// Append the strong to the close button and append the close button to the modalDiv
+buttonClose.append(strong);
+modalDiv.append(buttonClose);
