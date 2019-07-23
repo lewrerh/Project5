@@ -8,4 +8,4 @@ When the user is chosen, a modal window shows the name, email and city of the em
 The extra credit was completed to show a search feature by name and the background of the body & cards have added background color. The modal window also show the previous and next features switching back and forth when clicked for extra credit points as well.
 
 
-
+File is complete and ready for review of an EXCEEDS grade.
