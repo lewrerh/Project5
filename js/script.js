@@ -9,7 +9,7 @@ $(document).ready(function () {
         dataType: 'json',
         success: function (data) {
 
-            //console.log(data);
+            //console.log(data); test//
             employeeCards = data.results;
             
             // Create Search
